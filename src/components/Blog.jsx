@@ -9,7 +9,7 @@ const Blog = () => {
             <div key={post.id}> 
                 <h2> {post.title} </h2>
                 <p> published by {post.author} on {post.date} </p>
-                <img src={post.thumbnail}/>
+                <img src={post.thumbnail} alt=""/>
             </div>
         )
     })
