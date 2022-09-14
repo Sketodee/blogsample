@@ -1,8 +1,15 @@
 import React from 'react'
+import SuccessBadge from './SuccessBadge'
 
 const Home = () => {
+
+// const onCancelClick = () => {
+//   console.log("working")
+// }
+
   return (
-    <h2>Home</h2>
+    <SuccessBadge message={"Thank You"} color={"#FF0000"} showIcon={false} onCancelClick={true}/>
+
   )
 }
 
